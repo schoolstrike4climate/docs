@@ -1,6 +1,12 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
+    Guides: ['doc1', 'doc2', {
+      "type": "subcategory",
+        "label": 'Action Network',
+        "ids": [
+          "actionnetwork", "actionnetwork-glossary"
+    }'doc3'],
     Features: ['mdx'],
+    Policies: ['eimp'],
   },
 };

@@ -1,7 +1,7 @@
 module.exports = {
   title: 'School Strike 4 Climate',
   tagline: 'Tech and Digital Team',
-  url: 'https://tech.ss4c.info',
+  url: 'https://schoolstrike4climate.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -11,8 +11,8 @@ module.exports = {
     navbar: {
       title: 'SS4C Tech and Digital',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'SS4C Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -91,13 +91,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/schoolstrike4climate/docs/tree/master/schoolstrike',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/schoolstrike4climate/docs/tree/master/schoolstrike/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
